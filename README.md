@@ -20,20 +20,21 @@ This Streamlit application processes vMix license keys and provides various data
 ### Clone the Repository
 
 ```sh
-https://github.com/izyumovkirill/vMixLicenseKeyProcessor.git
-
+git clone https://github.com/izyumovkirill/vMixLicenseKeyProcessor.git 
+```
 
 Build the Docker Image
 Build the Docker image for the application:
 
-sh
-Копировать код
+
+```sh
 docker build -t streamlit-vmix-app .
+```
 Run the Docker Container
 Run the Docker container for the application:
 
 sh
-Копировать код
+
 docker run -p 8501:8501 streamlit-vmix-app
 Access the Application
 Open your web browser and navigate to http://localhost:8501 to access the application.

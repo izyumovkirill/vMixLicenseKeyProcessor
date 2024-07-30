@@ -20,4 +20,5 @@ This Streamlit application processes vMix license keys and provides various data
 ### Clone the Repository
 
 ```sh
-
+git clone https://github.com/yourusername/yourrepository.git
+cd yourrepository

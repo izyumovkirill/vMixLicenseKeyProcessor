@@ -20,4 +20,4 @@ This Streamlit application processes vMix license keys and provides various data
 ### Clone the Repository
 
 ```sh
-[https://github.com/izyumovkirill/vMixLicenseKeyProcessor.git]
+https://github.com/izyumovkirill/vMixLicenseKeyProcessor.git

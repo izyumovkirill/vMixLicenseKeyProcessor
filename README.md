@@ -40,28 +40,23 @@ docker run -p 8501:8501 streamlit-vmix-app
 ### Access the Application
 Open your web browser and navigate to **http://localhost:8501** to access the application.
 
-Usage
-Upload your Excel file: Use the "Upload your Excel file" button to upload an Excel file containing registration keys.
-Select a column: Choose the column containing registration keys from the dropdown menu in the sidebar.
-Start Processing: Click the "Start Processing" button to begin data processing.
-View Results: The processed data and joined data will be displayed on the screen.
-Download Results: Use the "Download vMix data as CSV" and "Download joined data as CSV" buttons to download the respective CSV files.
-Dockerfile Explanation
-Base Image: Uses python:3.9-slim for a lightweight Python environment.
+##Usage
+**Upload your Excel file**: Use the "Upload your Excel file" button to upload an Excel file containing registration keys.
+**Select a column**: Choose the column containing registration keys from the dropdown menu in the sidebar.
+**Start Processing**: Click the "Start Processing" button to begin data processing.
+**View Results:** The processed data and joined data will be displayed on the screen.
+**Download Results**: Use the "Download vMix data as CSV" and "Download joined data as CSV" buttons to download the respective CSV files.
+### Dockerfile Explanation
+Base Image: Uses python:3.12-slim for a lightweight Python environment.
 System Dependencies: Installs necessary system packages, Google Chrome, and ChromeDriver.
 Python Dependencies: Installs Python packages listed in requirements.txt.
 Run Command: Starts the Streamlit application on port 8501.
 Requirements.txt
-Make sure the requirements.txt file includes:
-
-Копировать код
 streamlit
 pandas
 selenium
 beautifulsoup4
 webdriver-manager
-Troubleshooting
+### Troubleshooting
 IndexError: If you encounter an IndexError, ensure that the data in the Download column is formatted correctly.
 DuplicateWidgetID: Ensure each st.download_button has a unique key to avoid widget ID conflicts.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.

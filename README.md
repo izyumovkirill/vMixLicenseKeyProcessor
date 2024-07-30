@@ -30,14 +30,15 @@ Build the Docker image for the application:
 ```sh
 docker build -t streamlit-vmix-app .
 ```
-Run the Docker Container
+### Run the Docker Container
 Run the Docker container for the application:
 
-sh
+```sh
 
 docker run -p 8501:8501 streamlit-vmix-app
-Access the Application
-Open your web browser and navigate to http://localhost:8501 to access the application.
+```
+### Access the Application
+Open your web browser and navigate to **http://localhost:8501** to access the application.
 
 Usage
 Upload your Excel file: Use the "Upload your Excel file" button to upload an Excel file containing registration keys.

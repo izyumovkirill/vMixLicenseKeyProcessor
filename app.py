@@ -140,7 +140,7 @@ def main():
                         st.session_state['joined_data'] = joined_df
                         st.write("Joined Data")
                         #st.dataframe(joined_df)
-                        st.data_editor(joined_df,height=600,num_rows="dynamic")
+                        st.data_editor(joined_df,height=600,num_rows="static")
 
                         
                         col1, col2 = st.columns([1, 1])

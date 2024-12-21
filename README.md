@@ -60,4 +60,3 @@ beautifulsoup4
 webdriver-manager
 ### Troubleshooting
 IndexError: If you encounter an IndexError, ensure that the data in the Download column is formatted correctly.
-DuplicateWidgetID: Ensure each st.download_button has a unique key to avoid widget ID conflicts.
